@@ -1,0 +1,30 @@
+body {
+	background: url(./images/rome.jpg);
+	background-repeat: no-repeat;
+	background-size: 2700px 1450px;
+}
+
+p, h1, h2, input, button {
+	font-family: 'Overlock SC', cursive;
+}
+
+.container {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	background: white;
+	padding: 20px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border: ridge black;
+	background: #E6E6FA;
+
+}
+
+.finished {
+	margin-top: 20px;
+}
+
+button {
+	background: white;
+}

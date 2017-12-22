@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Overlock+SC" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./assets/style.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<title>Trivia</title>
 </head>
 <body>
+
+<div class="container">
 
 	<div id= "start-display">
 
@@ -34,7 +37,7 @@
 
 	<h2> 2. Who was the last King of Rome? </h2>
 
-		<input type="radio" name="question2" value=" Lucius Tarquinius Superbus"> Luscius Tarquinius Superbus
+		<input type="radio" name="question2" value="Lucius Tarquinius Superbus"> Luscius Tarquinius Superbus
 		<input type="radio" name="question2" value="Julius Caesar"> Julius Caesar
 		<input type="radio" name="question2" value="Caligula"> Caligula
 		<input type="radio" name="question2" value="Tiberius Gracchus"> Tiberius Gracchus
@@ -92,12 +95,36 @@
 
 		<input type="radio" name="question10" value="Athens"> Athens
 		<input type="radio" name="question10" value="Ephesus"> Ephesus
-		<input type="radio" name="question2" value="Carthago Nova"> Carthago Nova
-		<input type="radio" name="question2" value="Byzantium"> Byzantium
+		<input type="radio" name="question10" value="Carthago Nova"> Carthago Nova
+		<input type="radio" name="question10" value="Byzantium"> Byzantium
+
+		<br>
+
+		<button class ="finished">Finished</button>
 
 
 
 </div>
+
+<div id = "end-game-display">
+
+<h2>Ave, Citizen! Let's see how you did!</h2>
+
+<p> Right Answers: <span id="right-answers"></span></p>
+<p> Wrong Ansewrs: <span id= "wrong-answers"></span></p>
+<p> Unanswered Questions: <span id= "unanswered-questions"></span></p>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
 
 	
 
